@@ -151,7 +151,6 @@
     <p class="loading-text">Please wait!</p>
   </div>
   <script>
-    <script>
     window.addEventListener('load', function () {
       var loadingScreen = document.getElementById('loading-screen');
       var content = document.querySelector('.hidden-content');
@@ -165,7 +164,82 @@
       }, 500);
     });
   </script>
-  </script>
+  <style>
+    /* Loading Screen */
+#loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white; /* Anda bisa mengganti dengan warna background yang diinginkan */
+  z-index: 1000; /* Memastikan loading screen berada di atas elemen lainnya */
+  opacity: 1;
+  transition: opacity 0.5s ease; /* Transition for fade-out effect */
+}
+
+.loader {
+  height: 3cm; /* Adjusted size */
+  width: 3cm;  /* Adjusted size */
+  border-radius: 1rem;
+  box-shadow: inset 0 0 0 #0a7cbe;
+  animation: load 4s ease infinite;
+}
+
+.loading-text {
+  margin-top: 10px; /* Reduced margin */
+  font-size: 12px;  /* Reduced font size */
+  color: #0a7cbe; /* Match the color with the loader */
+}
+
+@keyframes load {
+  0% {
+    box-shadow: inset -3cm -1.5cm 0 #0a7cbe; /* Adjusted size */
+  }
+
+  25% {
+    box-shadow: inset 3cm -1.5cm 0 #0a7cbe; /* Adjusted size */
+  }
+
+  25.01% {
+    box-shadow: inset 1.5cm -3cm 0 #0a7cbe; /* Adjusted size */
+  }
+
+  50% {
+    box-shadow: inset 1.5cm 3cm 0 #0a7cbe; /* Adjusted size */
+  }
+
+  50.01% {
+    box-shadow: inset 3cm 1.5cm 0 #0a7cbe; /* Adjusted size */
+  }
+
+  75% {
+    box-shadow: inset -3cm 1.5cm 0 #0a7cbe; /* Adjusted size */
+  }
+
+  75.01% {
+    box-shadow: inset -1.5cm 3cm 0 #0a7cbe; /* Adjusted size */
+  }
+
+  100% {
+    box-shadow: inset -1.5cm -3cm 0 #0a7cbe; /* Adjusted size */
+  }
+}
+
+/* Hide the content initially */
+.hidden-content {
+  display: none;
+}
+
+body {
+  overflow: hidden; /* Prevent scrolling while loading screen is visible */
+}
+  </style>
+  
 <!-- loading screen -->
   
   <div data-aos="zoom-in" data-aos-duration="1000">

@@ -143,8 +143,31 @@
     }
   </style>
 </head>
-
+  
+<!-- loading screen -->
 <body>
+   <div id="loading-screen">
+    <div class="loader"></div>
+    <p class="loading-text">Please wait!</p>
+  </div>
+  <script>
+    <script>
+    window.addEventListener('load', function () {
+      var loadingScreen = document.getElementById('loading-screen');
+      var content = document.querySelector('.hidden-content');
+
+      loadingScreen.style.opacity = '0';
+
+      setTimeout(function () {
+        loadingScreen.style.display = 'none';
+        content.style.display = 'block'; 
+        document.body.style.overflow = 'auto'; 
+      }, 500);
+    });
+  </script>
+  </script>
+<!-- loading screen -->
+  
   <div data-aos="zoom-in" data-aos-duration="1000">
     <h1 id="text" class="text-center">Tebak Gambar Online!</h1>
     <p id="text">"Berpikirlah diluar kotak." Apa maksudnya dari kalimat itu?</p>

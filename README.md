@@ -1,5 +1,3 @@
-# 🎨 Tebak Gambar Web 🎉
-
 ## 🎯 Web apa ini?
 
 Web Tebak Gambar ini adalah sebuah permainan interaktif yang menantang pengguna untuk menebak berbagai gambar yang diberikan. Website ini dirancang dengan antarmuka yang menarik dan memudahkan pengguna untuk mencoba bermain.

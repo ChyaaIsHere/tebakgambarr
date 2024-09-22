@@ -1,6 +1,7 @@
-## 🎯 Web apa ini?
+## 🎯 Repository apa ini?
 
-Web Tebak Gambar ini adalah sebuah permainan interaktif yang menantang pengguna untuk menebak berbagai gambar yang diberikan. Website ini dirancang dengan antarmuka yang menarik dan memudahkan pengguna untuk mencoba bermain.
+Repository Tebak Gambar ini adalah sebuah web yang saya buat untuk membuat permainan interaktif dan menantang pengguna untuk menebak berbagai gambar yang diberikan. 
+Website ini dirancang dengan antarmuka yang menarik dan memudahkan pengguna untuk mencoba bermain.
 
 > 🔍 Sebuah website seru untuk menebak gambar dengan berbagai tantangan dan level kesulitan!
 > 🤯 Out Of The Box? Apanya ya yang kira kira diluar kotak? Hmm...

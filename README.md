@@ -15,15 +15,6 @@ Lihat versi demo dari website ini di [Tebak Gambar!](https://chyaaishere.github.
 ## 📚 Teknologi yang Digunakan
 - HTML5, CSS3, JavaScript, dan JQuery
 
-## 💬 Kontribusi
-
-Kontribusi sangat diterima! Jangan ragu untuk membuka masalah (issue) atau pull request untuk perbaikan dan penambahan fitur.
-1. Fork proyek ini.
-2. Buat branch fitur (`git checkout -b fitur-anda`).
-3. Commit perubahan Anda (`git commit -m 'Menambahkan fitur baru'`).
-4. Push ke branch (`git push origin fitur-anda`).
-5. Buka Pull Request.
-
 ## 📧 Kontak
 
 Untuk pertanyaan lebih lanjut, hubungi saya di [rivaldocahyasaputt182@gmail.com](rivaldocahyasaputt182@gmail.com).

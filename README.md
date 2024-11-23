@@ -15,10 +15,6 @@ Lihat versi demo dari website ini di [Tebak Gambar!](https://chyaaishere.github.
 ## 📚 Teknologi yang Digunakan
 - HTML5, CSS3, JavaScript, dan JQuery
 
-## 📧 Kontak
-
-Untuk pertanyaan lebih lanjut, hubungi saya di [rivaldocahyasaputt182@gmail.com](rivaldocahyasaputt182@gmail.com).
-
 ---
 
 🎉 Selamat bermain dan semoga Anda menikmati tebak gambar ini!
